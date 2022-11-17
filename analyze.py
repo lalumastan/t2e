@@ -21,7 +21,7 @@ STARTING_ID = 128948
 
 #  Declare CSV headers and file name
 FIELD_NAMES = ['Id', 'Title', 'Comment', 'Created Date', 'Created By', 'Happy', 'Angry', 'Surprise', 'Sad', 'Fear']
-CSV_FILE_NAME = 't2e.csv'
+CSV_FILE_NAME = 't2e_final.csv'
 TOTAL = 'Total'
 
 #  Declare Pie Chart Title
@@ -55,7 +55,6 @@ def showPieChart(y):
 #  Write to CSV file  #
 #######################
 def writeToCSVFile(writer, created_by, happy, angry, surprise, sad, fear, id = '', title = '', comment = '', created_date = ''):
-    FIELD_NAMES = ['Id', 'Title', 'Comment', 'Created Date', 'Created By', 'Happy', 'Angry', 'Surprise', 'Sad', 'Fear']
     writer.writerow(
         {FIELD_NAMES[0]: id,
         FIELD_NAMES[1]: title,
@@ -177,7 +176,7 @@ def loadCSVAndShowResult():
             #  Look for the last line
             if  data[FIELD_NAMES[4]] == TOTAL:
                 #  Show the result
-                print(data)
+                # print(data)
                 showPieChart([float(data[FIELD_NAMES[5]]), float(data[FIELD_NAMES[6]]), float(data[FIELD_NAMES[7]]), float(data[FIELD_NAMES[8]]), float(data[FIELD_NAMES[9]])])
 
     #  Handle any error

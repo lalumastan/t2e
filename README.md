@@ -27,5 +27,8 @@ bs4
 4.  Open command prompt/console and go to the root directory of the source code (i.e. <code>.../t2e</code>) 
 5.  <code>python analyze.py </code>
 
+### Screenshot
+![Alt text](t2e.png)
+
 ### Tutorial
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=8_tJXRVlQ0s " target="_blank"><img src="http://img.youtube.com/vi/8_tJXRVlQ0s /0.jpg" alt="Web Scrapper/HTML Parser and Analyze Sentiments from Public Comments" width="240" height="180" border="10" /></a>
