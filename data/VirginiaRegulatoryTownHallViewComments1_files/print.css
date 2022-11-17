@@ -1,0 +1,59 @@
+/* Print Style Sheet for DPB Website - aja, sjs, rsh 2007 */
+
+.noprintsc {visibility:hidden;}
+
+a:link, a:visited {
+	color: #520;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+	}
+#content {
+   position: static;
+   background: white;
+   color:black;
+   font-size: 12pt;
+   width: 100%;
+      }
+#contentwide {
+   position: static;
+   background: white;
+   color:black;
+   font-size: 12pt;
+   width: 100%;
+      }
+#contentwider {
+   position: static;
+   background: white;
+   color:black;
+   font-size: 12pt;
+   width: 100%;
+      }
+
+#header
+{
+  display: none;
+}
+
+#agencyfunctions
+{
+  display: none;
+}
+
+#bannerpictures
+{
+  display: none;
+}
+
+#breadcrumb   
+{
+  display: none;
+}
+#sidebar
+{
+  display: none;
+}
+#commentbox
+{
+ background-color: transparent;
+}

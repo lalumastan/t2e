@@ -1,0 +1,1020 @@
+ /* Main Style Sheet for TownHall Website */
+
+/* Style for top header links */
+body {
+	margin : 0px;
+	padding : 0px;
+	color : #000000;
+	font-size: .8em;
+	font-family: arial, helvetica, sans serif;
+	font-weight: normal;
+	background-color: white;
+}
+
+a img {
+	border: 0px;
+}
+
+#searchBox {
+	background:url(graphics/virginia_seach_txt-bg.jpg) no-repeat;
+	background-color:transparent;
+	margin: 0px;
+	border:0;
+	font-weight:bold;
+	height:17px;
+	padding:1px;
+	width:172px;
+}
+
+#searchBox1 {
+	background-color:#FEFFFF;
+	margin: 0px;
+	border:0;
+	font-weight:bold;
+	height:17px;
+	padding:1px;
+	width:150px;
+}
+
+#vaSearchBtn {
+	background:url(graphics/virginia_seach_button-bg.gif) no-repeat transparent;
+	border:none;
+	height:20px;
+	margin-left:2px;
+	margin-right:5px;
+	width:28px;
+}
+
+#vaSearchBtn1 {
+	background:url(graphics/virginia_seach_button-bg.gif) no-repeat transparent;
+	border:none;
+	height:20px;
+	margin-left:2px;
+	margin-right:5px;
+	vertical-align: top;
+	width:28px;
+}
+
+#vaheader {
+	background-color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin: 0px;
+	padding: 4px;
+	height:18px;
+	text-decoration:none;
+	font-weight: bold;
+	color:#ffffff;
+}
+
+#vaheader a {
+	text-decoration:none;
+	font-weight: bold;
+	color:#ffffff;
+}
+
+#vaheader a:hover {
+	text-decoration:underline;
+	font-weight: bold;
+	color:#cceeee;
+}
+
+#vaheader .FloatRight {
+	float: right;
+}
+
+#vaheader a img {
+	border:none;
+	vertical-align: top;
+}
+
+#agencybanner {
+	padding: 0px;
+	margin: 0px;
+	height: 75px;
+	width: 100%;
+	background-color:#698cb8;
+}
+
+#bannerpictures {
+	border: 0px;
+	float: right;	
+}
+
+#breadcrumb {
+	width: 100%;
+	margin: 0px;
+	padding:0px 0px 0px 0px;
+	background:url(graphics/bgsm1.jpg) repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	height:24px;
+}
+
+#breadcrumb a {
+	color:#ffffff; 
+	text-decoration:none; 
+	font-weight:bold;
+}
+
+#breadcrumb a:hover {
+	color:#dfeade; 
+	text-decoration:none;
+}
+
+#breadcrumblinks {
+	padding:4px 4px 0px 4px;
+}
+
+#sitesearch {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 2px;
+	padding-right: 5px;
+  height: 20px;
+}
+
+#siteSearchForm {
+	margin: 0;
+}
+
+#siteSearchBtn {
+	background:url(graphics/virginia_seach_button-bg.gif) no-repeat transparent;
+	border:none;
+	height:20px;
+	margin: 0px;
+	padding: 0px;
+	width:28px;
+}
+
+#sidebar {
+	padding:0px;
+	padding-top: 0px;
+	margin:0px;
+    background-color: #639564;  
+	width: 153px;
+	font-family: arial;
+	font-size: 87%;
+	font-weight: bolder;
+}
+
+#sidebar a {
+	min-height:20px;
+	margin-top:0px;
+	padding-top: 7px;
+	display:block;
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	background:#fffcd2;
+}
+
+#menu1 a {
+	background:url(graphics/regulations.jpg) no-repeat transparent;
+	height: 35px;
+}
+
+#menu1 a:hover {
+	background:url(graphics/regulationslt.jpg) no-repeat transparent;
+}
+
+#menu2 a {
+	background:url(graphics/regulatory.jpg) no-repeat transparent;
+	height: 35px;
+}
+
+#menu2 a:hover {
+	background:url(graphics/regulatorylt.jpg) no-repeat transparent;
+}
+
+#menu3 a {
+	background:url(graphics/meetings.jpg) no-repeat transparent;
+	height: 35px;
+}
+ 
+#menu3 a:hover {
+	background:url(graphics/meetingslt.jpg) no-repeat transparent; 
+}
+
+#menu4 a {
+	background:url(graphics/PublicComment.jpg) no-repeat transparent;
+	height: 122px;
+}
+
+#menu4 a:hover {
+	background:url(graphics/PublicComment_f2.jpg) no-repeat transparent;
+	height: 122px;
+}
+
+#menu4z a {
+	background:url(graphics/forums.jpg) no-repeat transparent;
+	height: 35px;
+}
+
+#menu4z a:hover {
+	background:url(graphics/forumslt.jpg) no-repeat transparent;
+}
+
+#menu5 a {
+	background:url(graphics/guidance.jpg) no-repeat transparent;
+	height: 35px;
+}
+
+#menu5 a:hover {
+	background:url(graphics/guidancelt.jpg) no-repeat transparent;
+}
+
+#menu6 a {
+	/*background:url(graphics/statelogin.jpg) no-repeat transparent;*/
+    background:url(graphics/blankArrowLeft.jpg) no-repeat transparent;
+    color:#656766;
+    font-weight: bolder;
+    font-size: 95%;
+    line-height: 20px;
+    padding-left: 4px;
+	height: 35px;    
+}
+
+#menu6 a:hover {
+	/*background:url(graphics/stateloginlt.jpg) no-repeat transparent;*/
+    background:url(graphics/blankArrowLeftLt.jpg) no-repeat transparent;
+}
+
+#menu7 a {
+	/*background:url(graphics/publiclogin.jpg) no-repeat transparent;*/
+    background:url(graphics/blankArrowLeft.jpg) no-repeat transparent;
+    color:#656766;
+    font-weight: bolder;
+    font-size: 95%;
+    line-height: 20px;
+    padding-left: 4px;    
+	height: 35px;
+}
+
+#menu7 a:hover {
+	/*background:url(graphics/publicloginlt.jpg) no-repeat transparent;*/
+    background:url(graphics/blankArrowLeftLt.jpg) no-repeat transparent;
+}
+
+#menu8 a {
+	background:url(graphics/logintop.jpg) no-repeat transparent;
+	height: 28px;
+}
+
+#menu8 a:hover {
+	background:url(graphics/logintop.jpg) no-repeat transparent; 
+}
+
+#menu9 a {
+	/*background:url(graphics/logoff.jpg) no-repeat transparent;*/
+    background:url(graphics/blankArrowRight.jpg) no-repeat transparent;
+    color:#656766;
+    font-weight: bolder;
+    font-size: 95%;
+    line-height: 20px;
+    padding-left: 105px;      
+	height: 35px;
+}
+
+#menu9 a:hover {
+	/*background:url(graphics/logofflt.jpg) no-repeat transparent;*/
+    background:url(graphics/blankArrowRightLt.jpg) no-repeat transparent;
+    
+}
+
+#menu10 a {
+	/*background:url(graphics/myaccount.jpg) no-repeat transparent;*/
+    background:url(graphics/blankArrowRight.jpg) no-repeat transparent;
+    color:#656766;
+    font-weight: bolder;
+    font-size: 95%;
+    line-height: 20px;
+    padding-left: 77px;      
+	height: 35px;
+}
+
+#menu10 a:hover {
+	/*background:url(graphics/myaccountlt.jpg) no-repeat transparent;*/
+    background:url(graphics/blankArrowRightLt.jpg) no-repeat transparent;
+}
+
+#menu11 a {
+	/*background:url(graphics/notifications.jpg) no-repeat transparent;*/
+    background:url(graphics/blankArrowRight.jpg) no-repeat transparent;
+    color:#656766;
+    font-weight: bolder;
+    font-size: 95%;
+    line-height: 20px;
+    padding-left: 48px;      
+	height: 35px;
+}
+
+#menu11 a:hover {
+	/*background:url(graphics/notificationslt.jpg) no-repeat transparent;*/
+    background:url(graphics/blankArrowRightLt.jpg) no-repeat transparent;
+}
+
+#menu12 a {
+	background:url(graphics/leftcolumnbottom.jpg) no-repeat transparent;
+	height: 28px;
+}
+
+#menu12 a:hover {
+	background:url(graphics/leftcolumnbottom.jpg) no-repeat transparent;
+}
+
+#menu13 a {
+	background:url(graphics/blankArrowLeft.jpg) no-repeat transparent;
+    color:#656766;
+    font-weight: bolder;
+    font-size: 95%;
+    line-height: 20px;
+    padding-left: 4px;
+	height: 35px;
+}
+
+#menu13 a:hover {
+	background:url(graphics/blankArrowLeftLt.jpg) no-repeat transparent;
+}
+
+#content {
+	position: absolute;
+	left: 175px;
+	top: 135px;
+	width: 600px;
+	margin : 0px;
+	padding : 0px;
+	border: 0px;
+	color: #222222;
+	margin-right:10px;
+	padding-bottom:20px;
+}
+
+#content a:hover {
+	color: #3300FF;
+	Text-Decoration: Underline;
+}
+
+#content a, #content a:visited {
+	color: #432432;
+}
+
+#content a:visited {
+	color: #663399;
+}
+
+#content a.linkblue {
+	Color: mediumblue;
+	Text-Decoration: underline
+}
+
+#content a.linkblue:visited {
+	Color: mediumblue;
+}
+
+#content a.linkblue:hover {
+	Color: dodgerblue;
+}
+
+#content a.linkblue2 {
+	Color: mediumblue;
+	Text-Decoration: none
+}
+
+#content a.linkblue2:visited {
+	Color: mediumblue;
+	Text-Decoration: none
+}
+
+#content a.linkblue2:hover {
+	Color: dodgerblue;
+}
+
+#content a.linkblue3 {
+	Color: pink;
+	Text-Decoration: underline
+}
+
+#content a.linkblue3:visited {
+	Color: purple;
+}
+
+#content a.linkblue3:hover {
+	Color: dodgerblue;
+}
+
+#content2 {
+	width: 820px;
+	margin : 0px;
+	padding : 0px;
+	border: 0px;
+	color: #222222;
+	margin-right:10px;
+	padding-bottom:20px;
+}
+
+#content2 a, #content2 a:visited {
+	color: #432432;
+}
+
+#content2 a:hover {
+	color: #3300FF;
+	Text-Decoration: Underline;
+}
+
+#content2 a.linkblue {
+	Color: mediumblue;
+	Text-Decoration: underline
+}
+
+#content2 a.linkblue:visited {
+	Color: mediumblue;
+}
+
+#content2 a.linkblue:hover {
+	Color: dodgerblue;
+}
+
+#activitybar {
+	width: 600px;
+	margin: 0px;
+	padding : 0px;
+	border: 0px;
+	border-top: 1px solid ##eeeeee;
+	color: #666666;
+}
+
+#contentwide {
+	position: absolute;
+	left: 175px;
+	top: 135px;
+	max-width: 810px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	color: #222222;
+	margin-right:10px;
+	padding-bottom:20px;
+}
+
+#contentwide a:hover {
+	color: #3300FF;
+	Text-Decoration: Underline;
+}
+
+#contentwide a, #content a:visited {
+	color: #432432;
+}
+
+#contentwide a:visited {
+	color: #663399;
+}
+
+#contentwide a.linkblue2 {
+	Color: blue;
+	Text-Decoration: none
+}
+
+#contentwide a.linkblue2:visited {
+	Color: blue;
+	Text-Decoration: none
+}
+
+#contentwide a.linkblue2:hover {
+	Color: dodgerblue;
+}
+
+
+
+#contentwider {
+	position: absolute;
+	left: 175px;
+	top: 135px;
+	max-width: 840px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	color: #222222;
+	margin-right:10px;
+	padding-bottom:20px;
+}
+#contentwider a:hover {
+	color: #3300FF;
+	Text-Decoration: Underline;
+}
+
+#contentwider a, #content a:visited {
+	color: #432432;
+}
+
+#contentwider a:visited {
+	color: #663399;
+}
+
+#contentwider a.linkblue2 {
+	Color: blue;
+	Text-Decoration: none
+}
+
+#contentwider a.linkblue2:visited {
+	Color: blue;
+	Text-Decoration: none
+}
+
+#contentwider a.linkblue2:hover {
+	Color: dodgerblue;
+}
+
+#contentwider a.linkblue3 {
+	Color: blue;
+	Text-Decoration: none
+}
+
+#contentwider a.linkblue3:visited {
+	Color: purple;
+	Text-Decoration: none
+}
+
+#contentwider a.linkblue3:hover {
+	Color: dodgerblue;
+}
+
+#column3 {
+    float: right;
+    width: 240px;
+  	margin-top: 30px; 
+  	margin-left: 15px;
+    padding: 5px; 
+    font-size: 95%; 
+    background-color: #f6f6ff;
+	border: 1px solid green;
+	cursor: pointer;
+}
+
+#column2 {
+    padding-right: 255px;
+}
+
+.RisText  {
+	width: 585px;
+	font-family: arial, helvetica;
+}
+
+/* Some default for hyperlinks */
+a {
+	Color: blue
+}
+a:visited {
+	Color: blue;
+}
+a:hover {
+	Color: #cf0028;
+}
+.vtop {
+	Vertical-Align: Top;
+}
+.column {
+	float: left;
+}
+
+/* this is going to set custom spacing around the P tag throughout the site */
+/* I'm only somewhat sure right now that this is a good thing */
+p {
+	margin-top: 0em;
+	margin-bottom: .7em;
+}
+
+/* it doesn't make sense but if I don't use this to set font to 100% then font is too big */
+input {
+	font-size: 100%;
+}
+
+/* this gets rid of extra vertical space that IE puts in  */
+form {
+	margin: 0;
+}
+
+/* standard table styles providing a very nice 1 pixel table */
+table {
+	border-style: solid;
+	border-color: #aaaaaa;
+	border-width: 0px;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+th {
+	border-color: #aaaaaa;
+	border-width: 1px;
+	border-style: solid;
+	margin: 0;
+	padding: 4px;
+	background-color: #698cb8;
+	color: white;
+	Font-Family: Arial, Helvetica, Sans Serif;
+	Font-Weight: Bold;
+	text-align: left;
+}
+
+td {
+	border-color: #aaaaaa;
+	border-width: 1px;
+	border-style: solid;
+	margin: 0;
+	padding: 4px;
+	Font-Family: Arial, Helvetica, Sans Serif;
+	Vertical-Align: top;
+}
+
+/* some default styles for lists */
+ul,ol {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 2em;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	line-height: 1.2em;
+}
+
+li {
+	padding-bottom: 8px;
+}
+
+/* common heading styles */
+h1 {
+	padding-top: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-bottom: 3px;
+	margin-top:5px;
+	color: #666666;
+	font: 120% Arial, Verdana, Helvetica, sans-serif;
+	Font-Weight:bold;
+}
+
+h2 {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-bottom: 5px;
+	margin-top:5px;
+	color: #666666;
+	font: 100% Arial, Verdana, Helvetica, sans-serif;
+	Font-Weight:bold;
+}
+
+h3 {
+	padding : 0;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	font: 125% Arial, Verdana, Helvetica, sans-serif;
+	Font-Weight: Bold;
+	text-decoration: none;
+	color:#666666;
+}
+
+h4 {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-bottom: 5px;
+	margin-top:5px;
+	color: #666666;
+	font: 125% Arial, Verdana, Helvetica, sans-serif;
+	Font-Weight:bold;
+}
+
+h5 {
+	margin-bottom: 2px;
+	color: #666666;
+	font-weight: bold;
+	font-size: 125%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h6 {
+	padding : 0;
+	margin-top: 14px;
+	margin-bottom: 4px;
+	font: 125% Arial, Verdana, Helvetica, sans-serif;
+	Font-Weight: Normal;
+	text-decoration: none;
+	color: #666666;
+}
+
+h7 {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+	margin-bottom: 5px;
+	margin-top:5px;
+	color: #666666;
+	font: 100% Arial, Verdana, Helvetica, sans-serif;
+	Font-Weight:bold;
+}
+
+.headerA {
+	font-family: arial, helvetica, sans serif;
+	font-size: 125%;
+	font-weight: bold;
+	color: #666666;
+}
+
+/* some additional link styles */
+a.linkblack {
+	Color: black;
+	Text-Decoration: none
+}
+
+a.linkblack:visited {
+	Color: black;
+	Text-Decoration: none;
+}
+
+a.linkblack:hover {
+	Color: blue;
+	Text-Decoration: underline;
+}
+
+a.linkgray {
+	Color: #222222;
+	Text-Decoration: none
+}
+
+a.linkgray:hover {
+	Color: blue;
+	Text-Decoration: underline;
+}
+
+a.linklightgray {
+	Color: #888888;
+	Text-Decoration: none
+}
+
+a.linklightgray:hover {
+	Color: blue;
+	Text-Decoration: underline;
+}
+
+a.linkblue {
+	Color: blue;
+	Text-Decoration: underline;
+}
+
+a.linkblue:visited {
+	Color: blue;
+	Text-Decoration: underline;
+}
+
+a.linkblue:hover {
+	Color: dodgerblue;
+	Text-Decoration: underline;
+}
+
+a.linkblue2 {
+	Color: blue;
+	Text-Decoration: none;
+}
+
+a.linkblue2:visited {
+	Color: blue;
+	Text-Decoration: none;
+}
+
+a.linkblue2:hover {
+	Color: dodgerblue;
+	Text-Decoration: underline;
+}
+
+a.linkgreen {
+	Color: #004444;
+	Font-Family: Arial, Helvetica, Sans Serif;
+	Font-Size: 100%;
+	Font-Weight: Normal;
+	Text-Decoration: Underline;
+}
+
+a.linkgreen:visited {
+	Color: #004444;
+	Text-Decoration: underline;
+}
+
+a.linkgreen:hover {
+	Color: dodgerblue;
+	Text-Decoration: underline;
+}
+
+a.linkgreen2 {
+	Color: #003333;
+	Font-Family: Arial, Helvetica, Sans Serif;
+	Font-Size: 100%;
+	Font-Weight: Normal;
+	Text-Decoration: none;
+}
+
+a.linkgreen2:visited {
+	Color: #003333;
+	Font-Family: Arial, Helvetica, Sans Serif;
+	Text-Decoration: none;
+}
+
+a.linkgreen2:hover {
+	Color: dodgerblue;
+	Text-Decoration: underline;
+}
+
+a.link2 {
+	Color: #004444;
+	Font-Family: Arial, Helvetica, Sans Serif;
+	Font-Weight: Normal;
+	Text-Decoration: None;
+}
+
+a.link2:hover {
+	Color: Blue;
+	Text-Decoration: Underline;
+}
+
+a.link3 { 
+	Color: blue;
+	Font-Family: Arial, Helvetica;
+	Font-Size: 65%;
+	Font-Weight: Normal
+}
+
+.error1 {
+	padding: 3px;
+	margin-right: 0px;
+	margin-bottom: 12px;
+	border: 1px solid #dddddd;
+	font-size: 100%;
+	color: #B4003C;
+	background-color: #EaEbF5;
+}
+
+.error2 {
+    position: fixed; 
+    top: 0px; 
+    left:0px; 
+    margin-top: 175px; 
+    margin-left: 180px;		  
+    height: 100px; 
+    width: 680px;
+    background-color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 25px;
+    border: 4px solid Crimson;
+}
+
+.message1 {
+	padding: 3px;
+	margin-right: 0px; 
+	margin-bottom: 12px;
+	border: 1px solid #dddddd;
+	font-size: 100%;
+	color: #B4003C;
+	background-color: #d0eedd;
+}
+
+.fancybox {
+   float: left; 
+   padding: 3px; 
+   color: ##222222; 
+   background-color: white;  
+   border: 1px solid silver;
+}
+
+.arial {
+	font-family: arial, helvetica, sans serif;
+}
+
+.tahoma {
+	font-family: tahoma, arial, helvetica, sans serif;
+}
+
+.verdana {
+	font-family: verdana, geneva, arial, helvetica, sans serif;
+}
+
+.navTR {
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	color:#ffffff;
+	font-weight:bold;
+	font-size: 130%;
+	text-align: center;	
+}
+
+#footer {
+	clear: both;
+	padding:5px;
+	margin-top:0px;
+	margin-bottom:5px;
+	font-size: 90%;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+#footer p {
+	margin: 0px; 
+}
+
+.feature {
+	float: right;
+	width: 240px;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	font-size: 95%;
+	background: url(graphics/tipsbk.gif) no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#agencyinfo	{
+	text-align:center;
+	font-size:small;
+	font-family:Arial;
+	color: #FFFFFF;
+	padding: 12px 4px 12px 4px;
+}
+
+#commentbox {
+	background-color: #FFFAEA;
+	border: 1px solid #dddddd;
+	padding: 8px;
+}
+
+#findpopup {
+	top: 100px;
+	left: 50px;
+	width: 450px;
+	position: absolute;
+	display: none;
+	background-color: #FFFFe2;
+	border: 1px solid black;
+}
+
+/* Styles for the sidebar (left-menu) */
+.menu {
+	width:153px;
+	background:url(graphics/columnsmiddle.jpg);
+}
+
+.menu,
+.menu ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+    width:100%;
+}
+
+.menu li {
+	margin:0;
+	padding:0;
+    white-space: nowrap;
+}
+
+.menu a {
+	display:block;
+	padding:2px 2px;
+	color:#656766;/*black;*/
+	background:#E1EFF2;
+	text-decoration:none;
+	height:10px;
+	border-style:solid;
+    border-color:#659764;
+	border-width:1px;
+	font-weight:800;
+}
+
+.menu ax {
+	display:block;
+	background:#EBEBEB;
+	color:#656766;/*black;*/
+	height:22px;
+	border-style:solid;
+    border-color:#659764;
+	border-width:1px;
+	font-weight:900;		
+	padding:6px 0px 0px 2px;
+	text-decoration:none;
+}
+
+
+/* using   !important   forces background to correct color -bkd */
+.menu a:hover {
+	background:#FFFFFF!important;
+}
+
+.menu ul li a {
+    padding-left:15px;
+    color:#659764;
+}
+
+.menu ul a {
+	background:#E1EFF2;
+}
+
+.hidden {
+	display:none;
+}
