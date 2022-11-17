@@ -31,4 +31,4 @@ bs4
 ![Alt text](t2e.png)
 
 ### Tutorial
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=herRWHNVZS80s " target="_blank"><img src="http://img.youtube.com/vi/herRWHNVZS80s /0.jpg" alt="Web Scrapper/HTML Parser and Analyze Sentiments from Public Comments" width="240" height="180" border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=herRWHNVZS8 " target="_blank"><img src="http://img.youtube.com/vi/herRWHNVZS8 /0.jpg" alt="Web Scrapper/HTML Parser and Analyze Sentiments from Public Comments" width="240" height="180" border="10" /></a>
